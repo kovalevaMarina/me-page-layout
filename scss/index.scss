@@ -1,1 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 @import "./reset";
+@import "./var";
+@import "./mixin";
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: radial-gradient(
+      600.39% 110.7% at 10.01% -0%,
+      #ebf3ff 0%,
+      #fff 13.5%,
+      rgba(229, 240, 255, 0.38) 26.9%,
+      #fff 40.16%,
+      rgba(229, 240, 255, 0.47) 61.7%,
+      #fff 79.17%
+    ),
+    #fff;
+  color: $grey700;
+}
+
+.ff-roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.border-dash {
+  border-style: dashed;
+  color: $blue;
+}
+
+.main-text {
+  color: $grey400;
+}
+
+.btn-primary {
+  @include btn-style(281px, 4px);
+  &:hover {
+    @include btn-style-hover;
+  }
+}
+
+// header
+.form-select-sm {
+  color: $blue;
+}
+
+.square {
+  @include square-text-position;
+  top: 0;
+  left: 0;
+}
+
+.square2 {
+  @include square-text-position;
+  top: 0;
+  right: -5px;
+}
+
+.square3 {
+  @include square-text-position;
+  bottom: -5px;
+  right: -5px;
+}
+
+.square4 {
+  @include square-text-position;
+  bottom: -5px;
+  left: 0px;
+}
+
+.hero {
+  background-image: url("../assets/svg/hero-stroke.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+@import "./media";

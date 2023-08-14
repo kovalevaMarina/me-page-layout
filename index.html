@@ -18,5 +18,118 @@
     ></script>
     <link rel="stylesheet" href="./styles/index.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light py-3">
+          <div class="container-fluid flex-row-reverse flex-lg-row p-0">
+            <div class="flex-grow-1 flex-lg-grow-0">
+              <a class="navbar-brand d-block text-center" href="/">
+                <img src="./assets/img/logo.png" alt="Logo Me-Team" />
+              </a>
+            </div>
+            <button
+              class="navbar-toggler border-0"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="offcanvas offcanvas-end"
+              tabindex="-1"
+              id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel"
+            >
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+                <div
+                  class="navbar-nav justify-content-end align-items-start align-items-lg-center flex-grow-1 gap-4"
+                >
+                  <button
+                    type="button"
+                    class="btn btn-primary fw-bold"
+                    style="width: 5.75rem"
+                  >
+                    Login
+                  </button>
+                  <select
+                    class="form-select-sm bg-transparent p-1 border-0"
+                    aria-label="Default select example"
+                  >
+                    <option value="1">ENG</option>
+                    <option value="2">UKR</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero mt-md-5">
+        <div class="container">
+          <div
+            class="d-flex flex-column-reverse flex-lg-column pt-3 pt-md-4 pb-3"
+          >
+            <div class="row pb-4 flex-column align-items-center">
+              <div class="col-12">
+                <h1 class="h1 fw-bold text-center">
+                  Flexible Constructor for Creating
+                </h1>
+              </div>
+              <div class="col-12">
+                <div class="text-center h1">
+                  <span
+                    class="d-inline-block p-2 mx-auto position-relative border-2 border-dash fw-normal text-capitalize"
+                  >
+                    Perfect Websites
+                    <span class="square"></span>
+                    <span class="square2"></span>
+                    <span class="square3"></span>
+                    <span class="square4"></span>
+                  </span>
+                </div>
+              </div>
+              <div class="col-12 col-md-7">
+                <p
+                  class="mb-0 h6 fw-normal lh-base pt-3 pb-5 text-center main-text"
+                >
+                  Build a website that fits your needs, not the other way around
+                  with our flexible website constructor ME-Page!
+                </p>
+              </div>
+              <button
+                type="button"
+                class="btn btn-primary ln-base fw-bold py-3 mx-auto d-block"
+              >
+                Get Started
+              </button>
+            </div>
+            <img
+              class="img-thumbnail border-0 p-0 pt-2 pb-1 d-none d-sm-block"
+              src="./assets//img/main-img-desktop.png"
+            />
+            <img
+              class="img-thumbnail border-0 p-0 pt-2 pb-1 d-sm-none"
+              src="./assets//img/main-img-mob.png"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
 </html>

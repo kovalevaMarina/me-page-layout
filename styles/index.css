@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 html,
 body,
 div,
@@ -101,10 +102,6 @@ section {
   display: block;
 }
 
-body {
-  line-height: 1;
-}
-
 ol,
 ul {
   list-style: none;
@@ -130,4 +127,103 @@ table {
 
 * {
   box-sizing: border-box;
+}
+
+button {
+  outline: none;
+}
+button:focus {
+  box-shadow: none;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: radial-gradient(600.39% 110.7% at 10.01% 0%, #ebf3ff 0%, #fff 13.5%, rgba(229, 240, 255, 0.38) 26.9%, #fff 40.16%, rgba(229, 240, 255, 0.47) 61.7%, #fff 79.17%), #fff;
+  color: #3e4957;
+}
+
+.ff-roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.border-dash {
+  border-style: dashed;
+  color: #3a83f6;
+}
+
+.main-text {
+  color: #8b929a;
+}
+
+.btn-primary {
+  width: 281px;
+  border-radius: 4px;
+}
+.btn-primary:hover {
+  border: 1px solid #3e4957;
+  background-color: #3e4957;
+}
+
+.form-select-sm {
+  color: #3a83f6;
+}
+
+.square {
+  position: absolute;
+  margin-left: -5px;
+  margin-top: -5px;
+  background-color: #ffffff;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #3a83f6;
+  top: 0;
+  left: 0;
+}
+
+.square2 {
+  position: absolute;
+  margin-left: -5px;
+  margin-top: -5px;
+  background-color: #ffffff;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #3a83f6;
+  top: 0;
+  right: -5px;
+}
+
+.square3 {
+  position: absolute;
+  margin-left: -5px;
+  margin-top: -5px;
+  background-color: #ffffff;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #3a83f6;
+  bottom: -5px;
+  right: -5px;
+}
+
+.square4 {
+  position: absolute;
+  margin-left: -5px;
+  margin-top: -5px;
+  background-color: #ffffff;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #3a83f6;
+  bottom: -5px;
+  left: 0px;
+}
+
+.hero {
+  background-image: url("../assets/svg/hero-stroke.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    background-image: none;
+  }
 }
