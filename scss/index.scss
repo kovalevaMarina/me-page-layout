@@ -30,20 +30,30 @@ body {
   color: $grey400;
 }
 
+.text-color-blue {
+  color: $blue-border;
+}
+
 .title-h3 {
   line-height: 1.8;
   letter-spacing: 7px;
   color: $blue-secondary;
 }
 
-.btn-primary {
+.btn-primary,
+.btn-light {
   @include btn-style(281px, 4px);
   &:hover {
     @include btn-style-hover;
   }
 }
 
-.form-select-sm {
+.bg-blue {
+  background-color: $blue;
+}
+
+.form-select-sm,
+.text-btn-blue {
   color: $blue;
 }
 
@@ -98,6 +108,16 @@ body {
   th,
   td {
     color: $grey700;
+  }
+}
+
+.ready-to-try {
+  background-image: url("../assets/svg/ready-stroke.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  svg {
+    width: 137px;
+    height: 35px;
   }
 }
 

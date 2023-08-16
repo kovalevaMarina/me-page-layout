@@ -21,16 +21,16 @@
   .active-shadow {
     box-shadow: 6px 6px 0px 0px $blue;
   }
+
+  .ready-to-try {
+    svg {
+      width: 187px;
+      height: 65px;
+    }
+  }
 }
 
 @media screen and (min-width: $xl) {
-  //   .competitors {
-  //     .table th,
-  //     .table td {
-  //       font-size: 1.125rem;
-  //     }
-  //   }
-
   .text-18 {
     font-size: 1.125rem;
   }

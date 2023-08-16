@@ -18,22 +18,34 @@ body {
   color: #8b929a;
 }
 
+.text-color-blue {
+  color: #e2e9fc;
+}
+
 .title-h3 {
   line-height: 1.8;
   letter-spacing: 7px;
   color: #8fb4f1;
 }
 
-.btn-primary {
+.btn-primary,
+.btn-light {
   width: 281px;
   border-radius: 4px;
 }
-.btn-primary:hover {
+.btn-primary:hover,
+.btn-light:hover {
+  color: #ffffff;
   border: 1px solid #3e4957;
   background-color: #3e4957;
 }
 
-.form-select-sm {
+.bg-blue {
+  background-color: #3a83f6;
+}
+
+.form-select-sm,
+.text-btn-blue {
   color: #3a83f6;
 }
 
@@ -95,6 +107,16 @@ body {
   color: #3e4957;
 }
 
+.ready-to-try {
+  background-image: url("../assets/svg/ready-stroke.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.ready-to-try svg {
+  width: 137px;
+  height: 35px;
+}
+
 @media screen and (min-width: 768px) {
   .hero {
     background-image: none;
@@ -112,6 +134,10 @@ body {
   }
   .active-shadow {
     box-shadow: 6px 6px 0px 0px #3a83f6;
+  }
+  .ready-to-try svg {
+    width: 187px;
+    height: 65px;
   }
 }
 @media screen and (min-width: 1200px) {
