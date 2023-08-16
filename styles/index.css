@@ -29,12 +29,14 @@ body {
 }
 
 .btn-primary,
-.btn-light {
+.btn-light,
+.btn-outline-primary {
   width: 281px;
   border-radius: 4px;
 }
 .btn-primary:hover,
-.btn-light:hover {
+.btn-light:hover,
+.btn-outline-primary:hover {
   color: #ffffff;
   border: 1px solid #3e4957;
   background-color: #3e4957;

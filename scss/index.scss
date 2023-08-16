@@ -41,7 +41,8 @@ body {
 }
 
 .btn-primary,
-.btn-light {
+.btn-light,
+.btn-outline-primary {
   @include btn-style(281px, 4px);
   &:hover {
     @include btn-style-hover;
