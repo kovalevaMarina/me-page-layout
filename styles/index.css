@@ -44,6 +44,10 @@ body {
   background-color: #3a83f6;
 }
 
+.bg-grey {
+  background-color: #3e4957;
+}
+
 .form-select-sm,
 .text-btn-blue {
   color: #3a83f6;
@@ -51,6 +55,10 @@ body {
 
 .border-color {
   border-color: #3e4957;
+}
+
+.border-bottom-color {
+  border-bottom: 1px solid #4a5360;
 }
 
 .hero {
