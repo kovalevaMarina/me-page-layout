@@ -3,3 +3,36 @@
     background-image: none;
   }
 }
+
+@media screen and (min-width: $lg) {
+  .competitors {
+    &-bg {
+      background-image: url("../assets/svg/competitors-bg.svg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    &-text {
+      max-width: 947px;
+      font-size: 1.125rem;
+    }
+  }
+
+  .card {
+    box-shadow: 6px 6px 0px 0px $blue-shadow;
+  }
+
+  .active-shadow {
+    box-shadow: 6px 6px 0px 0px $blue;
+  }
+}
+
+@media screen and (min-width: $xxl) {
+  .competitors {
+    .table th,
+    .table td {
+      font-size: 1.125rem;
+    }
+  }
+}
