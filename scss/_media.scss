@@ -12,11 +12,6 @@
       background-position: center;
       background-repeat: no-repeat;
     }
-
-    &-text {
-      max-width: 947px;
-      font-size: 1.125rem;
-    }
   }
 
   .card {
@@ -28,11 +23,15 @@
   }
 }
 
-@media screen and (min-width: $xxl) {
-  .competitors {
-    .table th,
-    .table td {
-      font-size: 1.125rem;
-    }
+@media screen and (min-width: $xl) {
+  //   .competitors {
+  //     .table th,
+  //     .table td {
+  //       font-size: 1.125rem;
+  //     }
+  //   }
+
+  .text-18 {
+    font-size: 1.125rem;
   }
 }
