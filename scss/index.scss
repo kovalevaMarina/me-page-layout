@@ -120,6 +120,27 @@ body {
   }
 }
 
+.accordion {
+  &-item {
+    border-color: $grey400;
+    &:not(:first-of-type) {
+      border-top: 1px solid $grey400;
+    }
+  }
+
+  &-button {
+    color: $grey700;
+    line-height: 1.8;
+    &:hover {
+      color: $border-color;
+    }
+  }
+
+  &-body {
+    border-top: 1px solid $white-border;
+  }
+}
+
 .ready-to-try {
   background-image: url("../assets/svg/ready-stroke.svg");
   background-repeat: no-repeat;

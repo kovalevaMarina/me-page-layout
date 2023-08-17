@@ -117,6 +117,23 @@ body {
   color: #3e4957;
 }
 
+.accordion-item {
+  border-color: #8b929a;
+}
+.accordion-item:not(:first-of-type) {
+  border-top: 1px solid #8b929a;
+}
+.accordion-button {
+  color: #3e4957;
+  line-height: 1.8;
+}
+.accordion-button:hover {
+  color: #4a5360;
+}
+.accordion-body {
+  border-top: 1px solid #dde0e4;
+}
+
 .ready-to-try {
   background-image: url("../assets/svg/ready-stroke.svg");
   background-repeat: no-repeat;
