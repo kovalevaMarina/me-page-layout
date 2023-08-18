@@ -1,12 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 body {
   font-family: Arial, Helvetica, sans-serif;
   background: radial-gradient(600.39% 110.7% at 10.01% 0%, #ebf3ff 0%, #fff 13.5%, rgba(229, 240, 255, 0.38) 26.9%, #fff 40.16%, rgba(229, 240, 255, 0.47) 61.7%, #fff 79.17%), #fff;
   color: #3e4957;
-}
-
-.ff-roboto {
-  font-family: "Roboto", sans-serif;
 }
 
 .border-dash {
@@ -51,12 +46,18 @@ body {
 }
 
 .form-select-sm,
-.text-btn-blue {
+.text-btn-blue,
+.badge,
+.btn-light {
   color: #3a83f6;
 }
 
 .border-color {
   border-color: #3e4957;
+}
+
+.border-color-table {
+  border-bottom: 1px solid #518ff1;
 }
 
 .border-bottom-color {
@@ -103,7 +104,8 @@ body {
   left: 0px;
 }
 
-.card {
+.card,
+.results-wrap {
   border-color: #3e4957;
   box-shadow: 4px 4px 0px 0px #c0d9ff;
 }
@@ -114,7 +116,13 @@ body {
 
 .table th,
 td,
-.carousel-caption {
+.carousel-caption,
+.card h2 span {
+  color: #3e4957;
+}
+
+.competitors .table th,
+.competitors td {
   color: #3e4957;
 }
 
@@ -145,6 +153,12 @@ td,
 }
 .carousel-indicators .active {
   background-color: #3a83f6;
+}
+
+.bg-secondary {
+  border: 1px solid #3a83f6;
+  background-color: #f3f8ff !important;
+  box-shadow: 2px 2px 0px 0px #c0d9ff;
 }
 
 .ready-to-try {
@@ -179,9 +193,25 @@ td,
     width: 187px;
     height: 65px;
   }
+  .plans {
+    background-image: url("../assets/svg/plans-Stroke.svg");
+    background-position: top;
+    background-repeat: no-repeat;
+  }
 }
 @media screen and (min-width: 1200px) {
   .text-18 {
     font-size: 1.125rem;
+  }
+  .plans-wrap {
+    background-color: #fff;
+    border: 1px solid #8b929a;
+    border-radius: 8px;
+    box-shadow: 5px 5px 0 0 #c0d9ff;
+  }
+  .plans .card {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
   }
 }

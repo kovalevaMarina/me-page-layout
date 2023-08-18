@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 @import "./var";
 @import "./mixin";
 
@@ -15,10 +14,6 @@ body {
     ),
     #fff;
   color: $grey700;
-}
-
-.ff-roboto {
-  font-family: "Roboto", sans-serif;
 }
 
 .border-dash {
@@ -58,12 +53,18 @@ body {
 }
 
 .form-select-sm,
-.text-btn-blue {
+.text-btn-blue,
+.badge,
+.btn-light {
   color: $blue;
 }
 
 .border-color {
   border-color: $grey700;
+}
+
+.border-color-table {
+  border-bottom: 1px solid $blue-table;
 }
 
 .border-bottom-color {
@@ -104,7 +105,8 @@ body {
   left: 0px;
 }
 
-.card {
+.card,
+.results-wrap {
   border-color: $grey700;
   box-shadow: 4px 4px 0px 0px $blue-shadow;
 }
@@ -115,8 +117,16 @@ body {
 
 .table th,
 td,
-.carousel-caption {
+.carousel-caption,
+.card h2 span {
   color: $grey700;
+}
+
+.competitors {
+  .table th,
+  td {
+    color: $grey700;
+  }
 }
 
 .accordion {
@@ -156,6 +166,12 @@ td,
       background-color: $blue;
     }
   }
+}
+
+.bg-secondary {
+  border: 1px solid $blue;
+  background-color: $blue-badge !important;
+  box-shadow: 2px 2px 0px 0px $blue-shadow;
 }
 
 .ready-to-try {

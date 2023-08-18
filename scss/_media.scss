@@ -28,10 +28,30 @@
       height: 65px;
     }
   }
+
+  .plans {
+    background-image: url("../assets/svg/plans-Stroke.svg");
+    background-position: top;
+    background-repeat: no-repeat;
+  }
 }
 
 @media screen and (min-width: $xl) {
   .text-18 {
     font-size: 1.125rem;
+  }
+
+  .plans {
+    &-wrap {
+      background-color: #fff;
+      border: 1px solid $grey400;
+      border-radius: 8px;
+      box-shadow: 5px 5px 0 0 $blue-shadow;
+    }
+    .card {
+      border: none;
+      border-radius: 0;
+      box-shadow: none;
+    }
   }
 }
